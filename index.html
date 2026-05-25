@@ -1,88 +1,72 @@
-
 <!DOCTYPE html>
 <html lang="id">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Play List Video</title>
-  <style>
-    * {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f9f9f9;
-      text-align: center;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      min-height: 100vh;
-      padding: 10px;
-    }
-    .container {
-      width: 100%;
-      max-width: 360px;
-      background: #fff;
-      padding: 20px;
-      border-radius: 12px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-    h1 {
-      font-size: 20px;
-      color: #333;
-      margin-bottom: 20px;
-    }
-    .download-btn {
-      display: block;
-      width: 100%;
-      padding: 14px;
-      background-color: #24292e;
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 6px;
-      margin: 10px 0;
-      font-weight: bold;
-      transition: background 0.3s;
-      word-wrap: break-word;
-    }
-    .download-btn:hover {
-      background-color: #000;
-    }
-
-    .gif-btn img {
-      width: 100%;
-      border-radius: 8px;
-      margin-top: 12px;
-    }
-
-    /* Khusus layar kecil */
-    @media (max-width: 480px) {
-      body { padding: 10px; }
-      .container { padding: 16px; }
-      h1 { font-size: 18px; }
-      .download-btn { font-size: 15px; padding: 12px; }
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>too thick to handle fr 😭</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffffff;
+            padding: 20px;
+        }
+        .video-title {
+            font-size: 1em;
+            font-weight: bold;
+            margin-bottom: 18px;
+            letter-spacing: 1px;
+            color: black;
+        }
+        .video-wrapper {
+            position: relative;
+            width: 100%;
+            max-width: 720px;
+            margin: 0 auto;
+        }
+        video {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 10px;
+            display: block;
+        }
+        .ad-banner-inside {
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 320px;
+            height: 50px;
+            background: rgba(255,255,255,0.92);
+            border-radius: 10px 10px 0 0;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2;
+            overflow: hidden;
+        }
+        @media (max-width: 400px) {
+            .ad-banner-inside {
+                width: 95vw;
+                height: 40px;
+                font-size: 0.85em;
+            }
+        }
+    </style>
 </head>
 <body>
-
-  <div class="container">
-    <h1>Click Link to Watch</h1>
-
-    <a href="https://t.co/C41JIQLwUk?otnq6gha1.mp4" class="download-btn">
-      https://cdn.videy.co/otnq6gha1.mp4
-    </a>
-
+    <div class="video-title">
+    <div class="video-wrapper">
+<div class="col-md-6 offset-md-3 text-center my-4">
+                        <div id="content">
+<center><video autoplay loop playsinline controls poster="https://i.imgur.com/8iMsa3l.jpeg">
+            <source src="https://videy.co/v/?id=otnq6gha1" type="video/mp4">
+        </video></center>
     <!-- Tombol GIF -->
-    <a href="https://cdn-videy-us.github.io/otnq6gha1.mp4/" class="gif-btn">
-      <img src="https://cdn.storageimagedisplay.com/349/34c/ec9/320x50_2_iam18.gif" alt="Iklan GIF">
-    </a>
-
-  </div>
+    <a href="https://videoincomments.github.io/too-thick-to-handle-fr-/" class="gif-btn">
+      <center><img src="https://cdn.storageimagedisplay.com/349/34c/ec9/320x50_2_iam18.gif" alt="Iklan GIF"></center>
 
 </body>
 <script type='text/javascript'>
